@@ -1,7 +1,6 @@
 matplotlib==3.1.2
 numpy==1.18.1
 scikit-learn==0.22.1
-tensorboard==2.1.1
 tensorflow==2.1.0
 tflearn==0.3.2
 pandas==0.25.3
@@ -9,14 +8,8 @@ pickleshare==0.7.5
 Pillow==7.0.0
 Flask==1.1.1
 Flask-SQLAlchemy==2.4.1
-h5py==2.10.0
-html5lib==0.9999999
-httplib2==0.17.0
-idna==2.8
-imageio==2.6.1
 numpy==1.18.1
 opencv-python==4.1.2.30
 pandas==0.25.3
-parso==0.6.2
 pickleshare==0.7.5
 Pillow==7.0.0
