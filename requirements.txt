@@ -13,7 +13,8 @@ tensorflow-gpu==2.0.0b1
 tensorflow-hub==0.5.0
 tensorflow-tensorboard==1.5.1
 tf-estimator-nightly==1.14.0.dev2019060501
-tflearn==0.3.2pandas==0.25.3
+tflearn==0.3.2
+pandas==0.25.3
 pickleshare==0.7.5
 Pillow==7.0.0
 Theano==1.0.4
