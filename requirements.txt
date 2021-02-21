@@ -1,6 +1,7 @@
 matplotlib==3.1.2
 numpy==1.18.1
 Keras==2.2.2
+gunicorn==19.9.0
 tflearn==0.3.2
 pandas==0.25.3
 pickleshare==0.7.5
