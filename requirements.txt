@@ -7,3 +7,5 @@ Flask==1.1.1
 opencv-python==4.1.2.30
 tensorflow==2.0.0
 scikit-learn==0.22.1
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
