@@ -2,12 +2,12 @@ import os
 import warnings
 
 warnings.simplefilter("ignore")
-from keras.preprocessing.image import img_to_array
-from keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
 import numpy as np
 import cv2
 from flask import Flask, request, render_template
-from keras import backend as K
+from tensorflow.keras import backend as K
 from os import listdir
 
 K.clear_session()
