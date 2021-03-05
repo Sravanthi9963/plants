@@ -52,15 +52,7 @@ def upload():
         destination = "/".join([target, imageName])
         print(f'Destination : {destination}')
         file.save(destination)
-        print('analysing Image')
-        try:
-            image = os.listdir('static')
-            im = destination
-            print(f'Analysing Image : {im}')
-        except Exception as e:
-            print(e)
-        result = "Failed to Analyse"
-        percentage = "0 %"
+        im=file
         try:
             detect()
             solution = solutions(result)
